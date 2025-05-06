@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro de Asistencia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Nombre del evento</h2>
+  <p>Lugar | Fecha</p>
+
+  <div class="camera-box">
+    <div id="reader" style="width: 300px; margin: auto;"></div>
+  </div>
+  
+
+  </div>
+
+  <div class="asistentes">
+    <h3>Asistentes</h3>
+    <table id="tabla">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <button onclick="ingresoManual()">Ingreso manual</button>
+  <button onclick="exportarCSV()">Ver todo / Exportar CSV</button>
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <script src="script.js"></script>
+</body>
+</html>
