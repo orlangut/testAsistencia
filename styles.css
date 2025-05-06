@@ -46,3 +46,19 @@ body {
     background-color: #1b4a5d;
   }
   
+  .check-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+  }
+  
